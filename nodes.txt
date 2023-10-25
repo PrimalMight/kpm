@@ -1,0 +1,9 @@
+NODE | 
+6 | UE
+7 | UE
+4 | eNodeB | Int2 (eNB -- UE)
+5 | eNodeB | Int2 (eNB -- UE)
+1 | SGW | Int1 (SGW -- PGW) | Int2 (SGW -- MME) | Int3 (SGW -- eNB) | Int4 (SGW -- eNB)
+0 | PGW | Int2 (PGW -- SGW) | Int3 (PGW -- Remote Host)
+2 | MME | Int1 (MME - SGW)
+3 | Remote Host | Int1 (Remote Host -- PGW)
